@@ -1,0 +1,30 @@
+a{
+    color:white;
+    text-decoration: none;
+   
+
+}
+a:hover{
+    color: red;
+}
+span{
+    color: red;
+}
+.navbar-brand{
+    margin-left: 80px;
+
+}
+.navbar-nav{
+    margin-left: 60px;
+    justify-content: space-between;
+    
+}
+#nav{
+    background-color: black;
+}
+h2{
+    color: white;
+    margin-left: 20px;
+}
+
+

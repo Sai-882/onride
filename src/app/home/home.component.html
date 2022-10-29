@@ -1,0 +1,110 @@
+<body>
+    <div id="box">
+        <div class="card">
+          <div class="card-body">
+            <div id="start">
+               <input type="city" id="city" placeholder="Enter Starting Location" [(ngModel)]="city">
+            </div>
+            <div id="end">
+          <input type="city" id="username" placeholder="Enter Destination Location" [(ngModel)]="username">
+           </div>
+           <div id="sai">
+        <input type="button" value="Search vehicles" (click)="vinfo($event)">
+           </div>
+          </div>
+        </div>
+      </div>
+      </body>
+      <div class="row">
+          <div class="card" id="card2">
+                <img class="card-img-top" src="https://www.tempotravellercabs.com/wp-content/uploads/2017/02/swift-dzire.jpg" alt="Card image cap" id="img1">
+                <div class="card-body">
+                  <h5 class="card-text">CAR <span>TAXI</span></h5>
+                </div>
+          </div>
+          <div class="card" id="card1">
+           
+            <img class="card-img-top" src="https://assets.vccircle.com/uploads/2018/05/bike11.jpg" alt="Card image cap" id="img2">
+            <div class="card-body">
+              <h5 class="card-text">BIKE <span>TAXI </span></h5>
+            </div>
+          
+      </div>
+        
+        
+      <div class="card" id="card3">
+           
+        <img class="card-img-top" src="https://tse3.mm.bing.net/th?id=OIP.XSiVsqkPFosZKkoWwFRaNgHaE8&pid=Api&P=0"  alt="Card image cap" id="img3">
+        <div class="card-body">
+          <h5 class="card-text">AUTO <span> RICKSHAW </span></h5>
+        </div>
+      
+  </div>
+        
+      </div>
+      
+      
+      
+        
+      <div class="card" id="card4">
+          <div class="card-body">
+            <h3>Why ride with On Wheels</h3><br>
+            <div id="hom">
+      <svg xmlns="http://www.w3.org/2000/svg" width="40px" height="30px" color="red" fill="currentColor" class="bi bi-house" viewBox="0 0 16 16">
+        <path fill-rule="evenodd" d="M2 13.5V7h1v6.5a.5.5 0 0 0 .5.5h9a.5.5 0 0 0 .5-.5V7h1v6.5a1.5 1.5 0 0 1-1.5 1.5h-9A1.5 1.5 0 0 1 2 13.5zm11-11V6l-2-2V2.5a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5z"/>
+        <path fill-rule="evenodd" d="M7.293 1.5a1 1 0 0 1 1.414 0l6.647 6.646a.5.5 0 0 1-.708.708L8 2.207 1.354 8.854a.5.5 0 1 1-.708-.708L7.293 1.5z"/>
+         
+      </svg>
+      <br>
+      <br>
+      
+         <h4>Get doorstep pickup</h4>
+         <br>
+         <p>
+          No need to go looking for an auto on the streets. 
+          Find a ride at your doorstep at the tap of a button.
+         </p>
+          </div>
+       
+        </div>
+      <div id="loc">
+        <svg xmlns="http://www.w3.org/2000/svg" width="30px" height="25px"color="red"  fill="currentColor" class="bi bi-map" viewBox="0 0 16 16">
+          <path fill-rule="evenodd" d="M15.817.113A.5.5 0 0 1 16 .5v14a.5.5 0 0 1-.402.49l-5 1a.502.502 0 0 1-.196 0L5.5 15.01l-4.902.98A.5.5 0 0 1 0 15.5v-14a.5.5 0 0 1 .402-.49l5-1a.5.5 0 0 1 .196 0L10.5.99l4.902-.98a.5.5 0 0 1 .415.103zM10 1.91l-4-.8v12.98l4 .8V1.91zm1 12.98 4-.8V1.11l-4 .8v12.98zm-6-.8V1.11l-4 .8v12.98l4-.8z"/>
+        </svg>
+        <br>
+        <br>
+        <h4>Go where you need to</h4>
+        <br>
+        <p>Tired of auto drivers refusing to go to your destination? Request Uber Auto to go anywhere around your city.</p>
+      
+      </div>
+      <div id="watch">
+        <svg xmlns="http://www.w3.org/2000/svg" width="30px" height="20px" color="red" fill="currentColor" class="bi bi-clock" viewBox="0 0 16 16">
+          <path d="M8 3.5a.5.5 0 0 0-1 0V9a.5.5 0 0 0 .252.434l3.5 2a.5.5 0 0 0 .496-.868L8 8.71V3.5z"/>
+          <path d="M8 16A8 8 0 1 0 8 0a8 8 0 0 0 0 16zm7-8A7 7 0 1 1 1 8a7 7 0 0 1 14 0z"/>
+        </svg>
+        <br>
+        <br>
+        <h4>Rides on demand</h4>
+        <br>
+        <p>Request a ride at any time and on any day of the year.</p>
+      </div>
+      <div id="money">
+        <svg xmlns="http://www.w3.org/2000/svg" width="40px" height="20px" color="red" fill="currentColor" class="bi bi-cash" viewBox="0 0 16 16">
+          <path d="M8 10a2 2 0 1 0 0-4 2 2 0 0 0 0 4z"/>
+          <path d="M0 4a1 1 0 0 1 1-1h14a1 1 0 0 1 1 1v8a1 1 0 0 1-1 1H1a1 1 0 0 1-1-1V4zm3 0a2 2 0 0 1-2 2v4a2 2 0 0 1 2 2h10a2 2 0 0 1 2-2V6a2 2 0 0 1-2-2H3z"/>
+        </svg>
+        <br>
+        <br>
+        <h4>Budget-friendly options</h4>
+        <br>
+        <p>
+          Compare prices on every kind of ride, from daily commutes to special evenings out.
+        </p>
+      
+      </div>
+      </div>
+      <app-footer></app-footer>
+      <router-outlet></router-outlet>
+    
+

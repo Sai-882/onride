@@ -1,0 +1,155 @@
+.card{
+    width: 900px;
+    height: 250px;
+    margin-left: 350px;
+    margin-top: 200px;
+    padding-bottom: 20px;
+    
+    
+}
+#box{
+	background: transparent;
+	background-color: black 5px solid;
+	position: relative;
+	box-shadow: 1px 1px 1px 0.5px whitesmoke;
+	width: 100%;
+	height: 300px;
+    margin: 0px;
+	
+	
+}
+#start input[type="city"]{
+    width: 300px;
+    height: 40px;
+    float: left;
+    margin-top: 85px;
+    margin-left: 35px;
+    border-color: red;
+}
+#end input[type="city"]{
+    width: 300px;
+    height: 40px;
+    margin-top: 85px;
+    margin-left: 30px;
+    float: left;
+    border-color: red;
+}
+#sai{
+    
+    float: right;
+    margin-top: 85px;
+    margin-right: 18px;
+    
+    
+}
+#sai input[type="button"]{
+   width: 150px;
+   height: 40px;
+   margin-left: 20px;
+   border: 0px;
+   background: red;
+   color: white;
+}
+#card2{
+    width: 300px;
+    height: 220px;
+    
+    margin-left: 110px;
+    margin-top: 80px;
+    
+    
+}
+#card1{
+    width: 300px;
+    height: 220px;
+    margin-left: 50px;
+    margin-top: 80px; 
+    
+    
+}
+#card3{
+    width: 300px;
+    height: 220px;
+    
+    margin-left: 50px;
+    margin-top: 80px;
+}
+.row{
+   
+    margin-left: 150px;
+    margin-top: 10px;
+    padding-bottom: 20px;
+}
+#card4{
+    width: 100%;
+    height: 300px;
+    margin-left: 0px;
+    margin-top: 80px;
+    display: flex;
+    flex-direction: row;
+    
+
+    
+    
+}
+#hom{
+    float: left;
+    margin-left: 30px;
+    margin-top: 0px;
+
+}
+#loc{
+    
+    margin-top: 70px;
+    
+    flex-flow: row;
+    margin-right: 150px;
+    margin-left: 100px;
+}
+#watch{
+    margin-top: 65px;
+    margin-right: 100px;
+    
+    flex-flow: row;
+    
+}
+#money{
+    margin-top: 65px;
+    flex-flow: row;
+    margin-right: 40px;
+}
+.home-banner {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+body{
+    background-image: url('https://wallpapercave.com/wp/wp2780898.jpg');
+    background-repeat: no-repeat;
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+    min-height: 150px;
+    background-position: center;
+    background-size: cover;
+}
+h5{
+    text-align: center;
+    color: red;
+    
+   
+}
+span{
+    color: black;
+}
+#img1{
+    height: 170px;
+}
+#img2{
+    height: 150px;
+}
+#img3{
+    height: 150px;
+}
